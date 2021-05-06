@@ -5,7 +5,7 @@ import mongoose from 'mongoose'
 export const router = express.Router()
 
 // GET ALL FOOD
-router.get('/', (req, res) => {
+router.get('/', (_, res) => {
   FoodModel.find((err, data) => {
     if (err) return res.status(404).send(err)
     res.send(data)
