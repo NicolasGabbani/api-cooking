@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon app.js",
-    "web": "node ./bin/www"
+    "web": "node app.js"
   },
   "keywords": [],
   "author": "",
